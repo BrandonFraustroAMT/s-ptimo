@@ -1,0 +1,33 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ipsum minim aliqua elit excepteur reprehenderit ea eu. Do et reprehenderit in sint velit."
+						}
+					}
+				]
+			},
+			"labelbutton": {
+				"__TYPE__": "FieldContent",
+				"value": "whatever",
+				"type": "Text"
+			},
+			"linkbutton": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "sound"
+				}
+			}
+		},
+		"items": []
+	}
+]
