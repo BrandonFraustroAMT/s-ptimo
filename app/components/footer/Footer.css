@@ -1,0 +1,144 @@
+.footer-container {
+    width: 100%;
+    background-color: var(--blueStrong);
+    color: var(--white);
+    padding: 50px 200px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-col1 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-nav__list {
+    padding: 0 20px;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-out;
+}
+.footer-nav__list:hover {
+    transform: scale(1.1);
+}
+.footer-nav__list a{
+    font-size: 0.8rem;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    cursor: pointer;
+}
+
+.dropdown-button span {
+    margin-left: 8px;
+    transition: transform 1s ease;
+}
+
+.rotate-up {
+    transform: rotate(180deg);
+}
+
+.rotate-down {
+    transform: rotate(0deg);
+}
+
+.dropdown-footer {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    width: 172px;
+    max-height: 400px;
+    z-index: 1000;
+}
+
+.dropdown-footer__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-footer__link {
+    padding: 5px 10px;
+}
+.dropdown-footer__link:hover {
+    cursor: pointer;
+    background-color: rgb(216, 216, 216);
+}
+
+.footer-col2 {
+    position: relative;
+    left: 25rem;
+    top: -8rem;
+}
+
+.footer-logo {
+    width: 85%;
+    height: 70px;
+}
+.footer-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-nav2__list {
+    padding: 0 20px;
+    transition: transform 0.2s ease-out;
+    text-decoration: underline;
+}
+.footer-nav2__list:hover {
+    transform: scale(1.1);
+}
+
+.footer-nav3__list {
+    padding: 0 10px;
+    width: 13%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav3__list a{
+    width: 80%;
+    border-radius: 50%;
+    background-color: var(--blueBackground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.footer-nav3__list a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

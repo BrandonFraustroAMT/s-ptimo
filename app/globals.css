@@ -1,13 +1,15 @@
 :root {
-  --background: #ffffff;
+  --white: #f4eceb;
   --foreground: #171717;
-}
+  --blueBackground: #202945;
+  --blueStrong: #0F1422;
+  --orangeBackground: #B35C28;
+  --greenBackground: #745C25;
+  --greenLightBackground: #83775e;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-garamond-italic: var(--font-garamond-italic);
+  --font-charlevoix-regular: var(--font-charlevoix-regular);
+  --font-charlevoix-bold: var(--font-charlevoix-bold);
 }
 
 html,
@@ -17,9 +19,7 @@ body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-charlevoix-regular),Arial, Helvetica, sans-serif;
 }
 
 * {
