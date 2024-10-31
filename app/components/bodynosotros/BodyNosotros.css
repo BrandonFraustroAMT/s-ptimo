@@ -161,3 +161,144 @@
     font-family: var(--font-garamond-variable);
     color: var(--white);
 }
+.nosotros-proyecto__slider {
+    width: 100%;
+    height: 750px;
+    padding: 50px 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 650px;
+  width: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+    color: #FFFFFF;
+}
+.swiper-button-prev {
+    color: #FFFFFF;
+}
+.swiper-pagination-bullet-active{
+    background-color: #000;
+}
+.swiper-pagination-bullet {
+    background-color: #FFFFFF;
+}
+
+
+.nosotros-desarrollos {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.nosotros-desarrollos__content {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.nosotros-desarrollos__content video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nosotros-desarrollos__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+}
+
+.nosotros-desarrollos__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+
+.nosotros-desarrollos__text h3,
+.nosotros-desarrollos__text p {
+  margin: 0;
+  padding: 10px 20px;
+}
+.nosotros-desarrollos__text h3 {
+    font-size: 2rem;
+    font-family: var(--font-garamond-variable);
+    color: var(--white);
+}
+.nosotros-desarrollos__text p {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.nosotros-contactanos {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+.nosotros-contactanos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/backLaptop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.3; 
+    z-index: -1; 
+}
+
+.nosotros-contactanos__title {
+    font-size: 1.3rem;
+    color: var(--blueStrong);
+    z-index: 1;
+}
+
+.nosotros-contactanos__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nosotros-contactanos__link img{
+    width: 15%;
+    margin-left: 10px;
+}
+.nosotros-desarrollos__card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.nosotros-desarrollos__card-button a{
+    background-color: var(--white);
+    color: var(--blueStrong);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}

@@ -1,12 +1,25 @@
+"use client"
 import Image from "next/image"
 
+import { Swiper, SwiperSlide } from "swiper/react"
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 import "./BodyNosotros.css"
+
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 import trabajo1 from "../../assets/images/trabajo1.jpeg"
 import trabajo2 from "../../assets/images/trabajo2.jpeg"
 import primeraPalmera from "../../assets/images/primera-palmera.jpg"
 import isotipoZeptimo from "../../assets/images/isotipoZEPTIMO.png"
 import logotipoZeptimo from "../../assets/images/logotipo.png"
+import sevenaSlider from "../../assets/images/sevena_slider.png"
+import galeiraSlider from "../../assets/images/galeira_slider.png"
+import selahSlider from "../../assets/images/selah_slider.png"
+import whatsapp from "../../assets/images/icon-whatsapp.svg"
 
 export default function BodyNosotros() {
   return(
@@ -59,8 +72,44 @@ export default function BodyNosotros() {
         <div className="nosotros-proyecto__list">
           <div className="nosotros-proyecto__title"><h3>Nuestros proyectos</h3></div>
           <div className="nosotros-proyecto__slider">
-
+            <Swiper
+              cssMode={true}
+              navigation={true}
+              pagination={true}
+              mousewheel={true}
+              keyboard={true}
+              modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <Image src={sevenaSlider} alt="Sevenna"/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image src={galeiraSlider} alt="Galeira"/>
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image src={selahSlider} alt="Selah"/>
+              </SwiperSlide>
+            </Swiper>
           </div>
+        </div>
+      </div>
+      <div className="nosotros-desarrollos">
+        <div className="nosotros-desarrollos__content">
+          <video autoPlay loop muted>
+            <source src="/assets/videos/video_tennis.mp4" type="video/mp4"/>
+          </video>
+          <div className="nosotros-desarrollos__overlay"></div>
+          <div className="nosotros-desarrollos__text">
+            <h3>Desarrollos con esencia propia</h3>
+            <p>Nuestros proyectos ofrecen soluciones creativas a la medida, cada uno conceptualizado y diseñado especialmente para ti</p>
+          </div>
+        </div>
+      </div>
+      <div className="nosotros-contactanos">
+        <div className="nosotros-contactanos__title"><h3>Contáctanos por WhatsApp</h3></div>
+        <div className="nosotros-desarrollos__card-button">
+          <a href="#" className="nosotros-contactanos__link">WhatsApp <Image src={whatsapp} alt="whatsapp"/></a>
         </div>
       </div>
     </div>
