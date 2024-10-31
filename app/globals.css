@@ -10,6 +10,9 @@
   --font-garamond-italic: var(--font-garamond-italic);
   --font-charlevoix-regular: var(--font-charlevoix-regular);
   --font-charlevoix-bold: var(--font-charlevoix-bold);
+  --font-garamond-variable: var(--font-garamond-variable);
+  --font-charlevoix-thin: var(--font-charlevoix-thin);
+  --font-charlevoix-medium: var(--font-charlevoix-medium);
 }
 
 html,

@@ -7,6 +7,11 @@ const garamondItalic = localFont({
   variable: "--font-garamond-italic",
   weight: "100 900",
 })
+const garamondVariable = localFont({
+  src: "./fonts/EB GARAMOND/EBGaramond-VariableFont_wght.ttf",
+  variable: "--font-garamond-variable",
+  weight: "100 900",
+})
 const charlevoixRegular = localFont({
   src: "./fonts/CHARLEVOIX PRO/CharlevoixPro-Regular.otf",
   variable: "--font-charlevoix-regular",
@@ -15,6 +20,16 @@ const charlevoixRegular = localFont({
 const charlevoixBold = localFont({
   src: "./fonts/CHARLEVOIX PRO/CharlevoixPro-Bold.otf",
   variable: "--font-charlevoix-bold",
+  weight: "100 900",
+})
+const charlevoixThin = localFont({
+  src: "./fonts/CHARLEVOIX PRO/CharlevoixPro-Thin.otf",
+  variable: "--font-charlevoix-thin",
+  weight: "100 900",
+})
+const charlevoixMedium = localFont({
+  src: "./fonts/CHARLEVOIX PRO/CharlevoixPro-Medium.otf",
+  variable: "--font-charlevoix-medium",
   weight: "100 900",
 })
 
@@ -30,7 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${garamondItalic.variable} ${charlevoixRegular.variable} ${charlevoixBold.variable}`}>
+      <body className={`${garamondItalic.variable} ${charlevoixRegular.variable} ${charlevoixBold.variable} ${garamondVariable.variable} ${charlevoixThin.variable} ${charlevoixMedium.variable}`}>
         {children}
       </body>
     </html>
