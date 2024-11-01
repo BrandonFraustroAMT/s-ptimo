@@ -1,4 +1,4 @@
-import {
+/* import {
   SliceSimulator,
   SliceSimulatorParams,
   getSlices,
@@ -17,4 +17,9 @@ export default function SliceSimulatorPage({
       <SliceZone slices={slices} components={components} />
     </SliceSimulator>
   );
+}
+ */
+
+export default function SliceSimulatorPage() {
+  return null;
 }
