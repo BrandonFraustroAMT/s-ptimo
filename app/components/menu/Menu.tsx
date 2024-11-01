@@ -26,9 +26,9 @@ export default function Menu() {
     setIsMenuOpen(!isMenuOpen);
   };  
 
-  const closeMenu = () => {
+  /* const closeMenu = () => {
     setIsMenuOpen(false);
-  };  
+  };  */ 
 
   return(
     <div className="menu-container">
