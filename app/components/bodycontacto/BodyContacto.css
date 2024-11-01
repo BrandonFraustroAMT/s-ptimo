@@ -1,0 +1,186 @@
+.contacto-container {
+    width: 100%;
+}
+
+.contacto-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    background-color: var(--whiteBackground);
+}
+
+.contacto-header__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-header__title {
+    padding: 20px 0;
+}
+.contacto-header__title h3{
+    color: var(--blueBackground);
+    font-size: 3rem;
+    text-align: center;
+    font-family: var(--font-garamond-variable);
+}
+
+.contacto-header__image {
+    width: 100%;
+    height: 400px;
+}
+.contacto-header__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.contacto-contactanos {
+    width: 100%;
+    background-image: url("../../assets/images//Fondo-zeptimo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacto-contactanos__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+.contacto-contactanos__columns {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacto-contactanos__col1,
+.contacto-contactanos__col2 {
+    width: 50%;
+}
+
+.contacto-contactanos__col1-title {
+    padding: 20px 0;
+}
+.contacto-contactanos__col1-title h3{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-garamond-variable);
+}
+
+.contacto-contactanos__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-form {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contacto-form label{
+    color: var(--white);
+    font-size: 1rem;
+}
+.contacto-form label::after{
+    content: '*';
+    color: red;
+    padding-left: 10px;
+}
+
+.contacto-form input{
+    font-size: 1rem;
+    padding: 5px;
+}
+.contacto-form textarea{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.contacto-contactanos__form button{
+    width: 100%;
+    background-color: var(--white);
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contacto-contactanos__socialmedia {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-contactanos__icon {
+    width: 10%;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-facebook {
+    width: 90%;
+    background-color: var(--blueFacebook);
+    border-radius: 5px;
+    padding: 10px;
+}
+.contacto-facebook img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contacto-instagram {
+    width: 90%;
+    background-color: var(--blackInstagram);
+    border-radius: 5px;
+    padding: 10px;
+}
+.contacto-instagram img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contacto-contactanos__col2 {
+    padding: 0 20px;
+}
+
+
+.contacto-contactanos__col2-title {
+    padding: 20px 0;
+}
+.contacto-contactanos__col2-title h3{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-garamond-variable);
+}
+
+.contacto-contactanos__text {
+    font-size: 1rem;
+    color: var(--white);
+}
+.contacto-contactanos__text span{
+    font-family: var(--font-charlevoix-bold);
+}
+.contacto-contactanos__text p{
+    padding: 10px 0;
+}
+
+.contacto-contactanos__map {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 400px;
+}

@@ -1,0 +1,344 @@
+.sevenna-container {
+    width: 100%;
+}
+
+.sevenna-header {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sevenna-header__video {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.sevenna-header__video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sevenna-header__image {
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.sevenna-header__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sevenna-header__text {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--greenText);
+    text-align: center;
+    z-index: 1;
+}
+
+.sevenna-header__text h3,
+.sevenna-header__text p{
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.sevenna-header__text h3 {
+    font-size: 2rem;
+    font-family: var(--font-garamond-variable);
+    margin: 120px 0;
+}
+.sevenna-header__text p {
+    font-size: 1rem;
+    color: var(--black);
+    padding-top: 120px;
+}
+
+.sevenna-header__button {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.sevenna-header__link {
+    background-color: var(--greenText);
+    color: var(--white);
+    padding: 10px 20px;
+}
+
+.sevenna-header__divider {
+    width: 100%;
+    background-color: var(--greenText);
+}
+
+.sevenna-header__divider h3{
+    text-align: center;
+    font-family: var(--font-garamond-variable);
+    color: var(--white);
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.sevenna-divider {
+    width: 100%;
+    padding: 250px 0;
+    background-image: url('../../assets/images/Render2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.sevenna-disfruta {
+    width: 100%;
+    background-image: url('../../assets/images/Fondo-Sevenna.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.sevenna-disfruta__list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-disfruta__text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: var(--white);
+}
+
+.sevenna-disfruta__text h3,
+.sevenna-disfruta__text p{
+    padding: 20px 0;
+}
+
+.sevenna-disfruta__text h3 {
+    font-family: var(--font-garamond-variable);
+    font-size: 2rem;
+}
+.sevenna-disfruta__text p {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.sevenna-disfruta__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-disfruta__options p{
+    color: var(--white);
+    padding: 20px 60px;
+    font-size: 1.5rem;
+}
+
+.sevenna-disfruta__slider{
+    width: 50%;
+    height: 500px;
+    padding: 50px 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 400px;
+  width: 80%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next {
+    color: #FFFFFF;
+}
+.swiper-button-prev {
+    color: #FFFFFF;
+}
+.swiper-pagination-bullet-active{
+    background-color: #000;
+}
+.swiper-pagination-bullet {
+    background-color: #FFFFFF;
+}
+
+
+.sevenna-disfruta__divider {
+    width: 100%;
+    background-color: var(--whiteDivider);
+}
+.sevenna-disfruta__divider h3{
+    text-align: center;
+    font-family: var(--font-garamond-variable);
+    color: var(--greenText);
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.sevenna-divider__video {
+    width: 100%;
+    height: 500px;
+}
+.sevenna-divider__video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.sevenna-amenidades {
+    width: 100%;
+    background-color: var(--whiteDivider);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.sevenna-amenidades__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-amenidades__title {
+    padding: 20px 0;
+}
+.sevenna-amenidades__title h3{
+    font-size: 2rem;
+    font-family: var(--font-garamond-variable);
+    color: var(--greenText);
+}
+
+.sevenna-amenidades__images {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sevenna-amenidades__card {
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-amenidades__card img{
+    width: 40%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.sevenna-amenidades__card p{
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.sevenna-adquiere {
+    width: 100%;
+    background-color: var(--greenText);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-adquiere__list {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-adquiere__title {
+    padding: 20px 0;
+}
+.sevenna-adquiere__title h3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--font-charlevoix-regular);
+    color: var(--white);
+    font-weight: 500;
+}
+
+.sevenna-adquiere__text {
+    padding-bottom: 20px;
+}
+.sevenna-adquiere__text p{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.sevenna-adquiere__socialmedia-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sevenna-adquiere__icon {
+    padding: 0 10px;
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sevenna-adquiere__icon a{
+    background-color: var(--greenLightBackground);
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.sevenna-adquiere__icon a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

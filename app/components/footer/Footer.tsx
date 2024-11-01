@@ -38,7 +38,7 @@ export default function Footer() {
                       <div className="dropdown-footer">
                         <div className="dropdown-footer__list">
                           <div className="dropdown-footer__link">
-                            <Link href="/sevena">Sevena</Link>
+                            <Link href="/sevenna">Sevena</Link>
                           </div>
                           <div className="dropdown-footer__link">
                             <Link href="/selah">Selah</Link>

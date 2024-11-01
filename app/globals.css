@@ -1,11 +1,17 @@
 :root {
   --white: #f4eceb;
+  --whiteBackground: #FFFFFF;
+  --black: #000;
   --foreground: #171717;
   --blueBackground: #202945;
   --blueStrong: #0F1422;
   --orangeBackground: #B35C28;
   --greenBackground: #745C25;
+  --greenText: #967B3A;
   --greenLightBackground: #83775e;
+  --whiteDivider: #EDEBE7;
+  --blueFacebook: #3B5999;
+  --blackInstagram: #262626;
 
   --font-garamond-italic: var(--font-garamond-italic);
   --font-charlevoix-regular: var(--font-charlevoix-regular);

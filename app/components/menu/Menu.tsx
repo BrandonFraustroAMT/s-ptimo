@@ -55,7 +55,7 @@ export default function Menu() {
                 <div className="dropdown-menu">
                   <div className="dropdown-menu__list">
                     <div className="dropdown-menu__link">
-                      <Link href="/sevena">Sevena</Link>
+                      <Link href="/sevenna">Sevenna</Link>
                     </div>
                     <div className="dropdown-menu__link">
                       <Link href="/selah">Selah</Link>
