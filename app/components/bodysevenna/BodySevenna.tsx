@@ -11,7 +11,7 @@ import "./BodySevenna.css"
 
 import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
-import logotipoSevenna from "../../assets/images/LogotipoSevenna.png"
+import logotipoSevenna from "../../assets/images/logotipoSevenna.png"
 import depa1 from "../../assets/images/depa1.jpeg"
 import depa2 from "../../assets/images/depa2.jpeg"
 import depa3 from "../../assets/images/depa3.jpeg"
