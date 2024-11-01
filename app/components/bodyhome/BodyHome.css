@@ -36,6 +36,7 @@
 }
 .home-text h2{
     font-weight: 200;
+    font-family: var(--font-garamond-italic);
 }
 
 .home-button {
@@ -73,6 +74,7 @@
 }
 .home-nosotros__title h3{
     font-weight: 300;
+    font-family: var(--font-garamond-variable);
 }
 .home-nosotros__text {
     font-size: 1rem;
@@ -127,6 +129,7 @@
 }
 .home-desarrollos__title h3{
     font-weight: 300;
+    font-family: var(--font-garamond-variable);
 }
 
 .home-desarrollos__list {
@@ -216,6 +219,7 @@
     font-size: 1.3rem;
     color: var(--blueStrong);
     z-index: 1;
+    font-family: var(--font-charlevoix-bold);
 }
 
 .home-contactanos__link {
@@ -243,8 +247,9 @@
 }
 .home-footer-list1__title h3{
     color: var(--white);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
+    font-family: var(--font-garamond-variable);
 }
 .home-footer-list1__text {
     color: var(--white);

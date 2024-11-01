@@ -21,7 +21,7 @@ export default function BodyHome() {
           <h2>Desarrollos con esencia propia</h2>
         </div>
         <div className="home-button">
-          <a href="#">Contactar</a>
+          <a href="/contacto">Contactar</a>
         </div>
       </div>
       <div className="home-nosotros">
@@ -34,7 +34,7 @@ export default function BodyHome() {
               <p>Somos una desarrolladora inmobiliaria ubicada en Mérida, Yucatán, especializada en el desarrollo de proyectos a la carta. Nuestro enfoque se distingue por integrar siempre un toque creativo y conceptual, asegurando así la diferenciación de nuestros productos en el mercado.</p>
             </div>
             <div className="home-nosotros__button">
-              <a href="#">Conoce más</a>
+              <a href="/nosotros">Conoce más</a>
             </div>
           </div>
           <div className="home-nosotros__col2">
@@ -62,7 +62,7 @@ export default function BodyHome() {
               <p>Complejo de 7 departamentos de lujo ubicados a la orilla del mar en Telchac Puerto</p>
             </div>
             <div className="home-desarrollos__card-button">
-              <a href="#">Conoce más</a>
+              <a href="/sevenna">Conoce más</a>
             </div>
           </div>
           <div className="home-desarrollos__card">
@@ -76,7 +76,7 @@ export default function BodyHome() {
               <p>Villas ubicadas en la zona norte de Mérida Yucatán de 2 y 3 recámaras</p>
             </div>
             <div className="home-desarrollos__card-button">
-              <a href="#">Conoce más</a>
+              <a href="/villasgaleira">Conoce más</a>
             </div>
           </div>
           <div className="home-desarrollos__card">
@@ -90,7 +90,7 @@ export default function BodyHome() {
               <p>Complejo de más de 25 departamentos con amenidades en zona norte de Mérida</p>
             </div>
             <div className="home-desarrollos__card-button">
-              <a href="#">Conoce más</a>
+              <a href="/selah">Conoce más</a>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function BodyHome() {
       <div className="home-contactanos">
         <div className="home-contactanos__title"><h3>Contáctanos por WhatsApp</h3></div>
         <div className="home-desarrollos__card-button">
-          <a href="#" className="home-contactanos__link">WhatsApp <Image src={whatsapp} alt="whatsapp"/></a>
+          <a href="https://wa.link/1ztv2b" className="home-contactanos__link">WhatsApp <Image src={whatsapp} alt="whatsapp"/></a>
         </div>
       </div>
       <div className="home-footer-list1">

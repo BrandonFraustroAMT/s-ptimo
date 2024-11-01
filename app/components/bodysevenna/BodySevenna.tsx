@@ -45,7 +45,7 @@ export default function BodySevenna() {
             <p>Navega una vida frente al mar, con nuestro complejo de 7 departamentos con amenidades exclusivas pensadas para disfrutar de la mayor comodidad en Telchac Puerto</p>
           </div>
           <div className="sevenna-header__button">
-            <a href="#" className="sevenna-header__link">Contáctanos</a>
+            <a href="https://wa.me/message/GZGZBGSL5AVMP1" className="sevenna-header__link">Contáctanos</a>
           </div>
         </div>
       </div>

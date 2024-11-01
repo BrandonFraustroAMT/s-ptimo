@@ -109,7 +109,7 @@ export default function BodyNosotros() {
       <div className="nosotros-contactanos">
         <div className="nosotros-contactanos__title"><h3>Contáctanos por WhatsApp</h3></div>
         <div className="nosotros-desarrollos__card-button">
-          <a href="#" className="nosotros-contactanos__link">WhatsApp <Image src={whatsapp} alt="whatsapp"/></a>
+          <a href="https://wa.link/8ivan0" className="nosotros-contactanos__link">WhatsApp <Image src={whatsapp} alt="whatsapp"/></a>
         </div>
       </div>
     </div>

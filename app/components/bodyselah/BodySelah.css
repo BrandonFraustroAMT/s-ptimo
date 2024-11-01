@@ -1,0 +1,25 @@
+.selah-container {
+    width: 100%;
+}
+
+.selah-header {
+    width: 100%;
+    background-image: url("../../assets/images/selah_slider.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.selah-header__title {
+    width: 100%;
+    padding: 20px 0;
+}
+.selah-header__title h3{
+    color: var(--white);
+    font-size: 3rem;
+    font-family: var(--font-charlevoix-medium);
+    text-align: center;
+}

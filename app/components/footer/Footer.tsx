@@ -67,10 +67,10 @@ export default function Footer() {
             </div>
             <div className="footer-nav">
               <div className="footer-nav3__list">
-                <a href=""><Image src={facebook} alt="Logo"/></a>
+                <a href="https://www.facebook.com/profile.php?id=61551041490040&mibextid=ZbWKwL"><Image src={facebook} alt="Logo"/></a>
               </div>
               <div className="footer-nav3__list">
-                <a href=""><Image src={instagram} alt="Logo"/></a>
+                <a href="https://www.instagram.com/zeptimodesarrollos?igsh=NTc4MTIwNjQ2YQ=="><Image src={instagram} alt="Logo"/></a>
               </div>
             </div>
           </div>
