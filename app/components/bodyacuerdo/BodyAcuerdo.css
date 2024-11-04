@@ -1,0 +1,59 @@
+.acuerdo-container {
+    width: 100%;
+    background-color: var(--blueBackground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acuerdo-body {
+    width: 70%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.acuerdo-body__image {
+    width: 80%;
+    height: 200px;
+}
+.acuerdo-body__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.acuerdo-body__title {
+    padding: 20px 0;
+}
+.acuerdo-body__title h2{
+    color: var(--white);
+    font-family: var(--font-garamond-variable);
+    font-size: 2.5rem;
+}
+
+.acuerdo-body__text {
+    width: 90%;
+    padding: 10px 0;
+}
+.acuerdo-body__text h3{
+    font-size: 1.2rem;
+    font-family: var(--font-garamond-variable);
+    font-weight: 900;
+    text-align: start;
+    padding-bottom: 15px;
+}
+
+.acuerdo-body__text span{
+    font-size: 1rem;
+    font-family: var(--font-garamond-variable);
+    font-weight: 900;
+}
+.acuerdo-body__text li{
+    font-size: 1rem;
+    font-family: var(--font-garamond-variable);
+    text-align: justify;
+}
