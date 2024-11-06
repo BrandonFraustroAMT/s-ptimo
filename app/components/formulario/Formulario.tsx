@@ -1,4 +1,5 @@
 'use client'
+import axios from "axios"
 import { useState, useEffect } from "react"
 import { ProspectoService } from "@/services/prospecto.service"
 
@@ -36,7 +37,6 @@ interface Prospecto {
 }
 
 export default function Formulario() {
-  const [prospecto, setProspecto] = useState<Prospecto[]>([]);
   const [referrer, setReferrer] = useState("");
   const [formData, setFormData] = useState<Partial<Prospecto>>({
     nombre: "",
@@ -89,7 +89,7 @@ export default function Formulario() {
     e.preventDefault();
     const prospectoService = new ProspectoService();
     try {
-      const response = await prospectoService.save({
+      await prospectoService.save({
         ...formData,
         canal: referrer, // Usamos el valor de referrer almacenado en el estado
       } as Prospecto);
@@ -113,9 +113,12 @@ export default function Formulario() {
         canal: referrer,
         notas: "",
       });
-    } catch (error) {
-      //console.error("Error al guardar el prospecto:", error);
-      alert("Hubo un error al guardar el prospecto");
+    } catch (error: unknown) {
+      if (axios.isAxiosError(error)) {
+        alert("Hubo un error al guardar el prospecto: " + error.response?.data);
+      } else {
+        alert("Hubo un error inesperado");
+      }
     }
   };
   
