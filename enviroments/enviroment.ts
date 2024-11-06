@@ -1,5 +1,5 @@
 export const environment = {
-  production: false,
+  production: true,
   //host: 'http://localhost:8080',
   host: 'http://cicerogroup.myklidosuite.com:8080/hocken-crm-dev-0.0.1',
   appName: 'hockenApp',
