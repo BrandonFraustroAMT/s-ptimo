@@ -25,7 +25,7 @@ export default function BodyVillasGaleira() {
             <p>Descubre nuestras exclusivas villas de lujo en Cholul, al norte de Mérida, Yucatán, con precios a partir de 3.35 MDP. Elige entre opciones desde 2 recámaras y 2.5 baños. Vive la elegancia y comodidad en un entorno privilegiado.</p>
           </div>
           <div className="villasg-header__button">
-              <a href="https://wa.me/message/CYPWGR6YF4EKP1">Contáctanos</a>
+              <a id="btnWP" href="https://wa.me/message/CYPWGR6YF4EKP1">Contáctanos</a>
           </div>
         </div>
       </div>
