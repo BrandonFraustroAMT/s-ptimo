@@ -313,6 +313,10 @@
     font-weight: 500;
 }
 
+.sevenna-adquiere__socialmedia {
+    padding-top: 20px;
+}
+
 .sevenna-adquiere__socialmedia-images {
     display: flex;
     flex-direction: row;

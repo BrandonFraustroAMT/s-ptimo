@@ -2,6 +2,7 @@
 import Image from "next/image"
 
 import { Swiper, SwiperSlide } from "swiper/react"
+import Formulario from "../formulario/Formulario";
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -150,6 +151,9 @@ export default function BodySevenna() {
           <div className="sevenna-adquiere__title"><h3>Adquiere un departamento a la orilla del mar</h3></div>
           <div className="sevenna-adquiere__text">
             <p>Déjanos tus datos y en seguida uno de nuestros asesores se contactará contigo</p>
+          </div>
+          <div>
+            <Formulario />
           </div>
           <div className="sevenna-adquiere__socialmedia">
             <div className="sevenna-adquiere__text">

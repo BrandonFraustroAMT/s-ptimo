@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Formulario from "../formulario/Formulario"
+
 import "./BodyVillasGaleira.css"
 
 import mapa from "../../assets/images/ubicacion.png"
@@ -100,6 +102,9 @@ export default function BodyVillasGaleira() {
           <div className="villasg-adquiere__text">
             <p>Déjanos tus datos y en seguida uno de nuestros asesores se contactará contigo</p>
           </div>
+          <div>
+            <Formulario />
+          </div>
           <div className="villasg-adquiere__socialmedia">
             <div className="villasg-adquiere__text">
               <p>Síguenos en redes sociales: @villasgaleira</p>
@@ -112,6 +117,7 @@ export default function BodyVillasGaleira() {
                 <a href="https://www.instagram.com/villasgaleira?igsh=NTc4MTIwNjQ2YQ=="><Image src={instagram} alt="Logo"/></a>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

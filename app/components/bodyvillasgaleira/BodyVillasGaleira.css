@@ -216,6 +216,9 @@
     font-weight: 500;
 }
 
+.villasg-adquiere__socialmedia {
+    padding-top: 20px;
+}
 .villasg-adquiere__socialmedia-images {
     display: flex;
     flex-direction: row;

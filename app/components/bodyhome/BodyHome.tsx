@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Formulario from "../formulario/Formulario"
+
 import logotipo from "../../assets/images/logotipo.png"
 import render from "../../assets/images/Render2.jpg"
 import sevenna from "../../assets/images/sevenna.jpg"
@@ -113,6 +115,9 @@ export default function BodyHome() {
         </div>
         <div className="home-footer-list1__text">
           <p>Calle 32 B # 522 x 9A y 11 colonia Maya Mérida Yucatán</p>
+        </div>
+        <div>
+          <Formulario />
         </div>
       </div>
     </div>

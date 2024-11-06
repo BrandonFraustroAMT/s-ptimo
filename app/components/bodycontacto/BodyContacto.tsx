@@ -1,5 +1,6 @@
 
 import Image from "next/image"
+import Formulario from "../formulario/Formulario"
 import "./BodyContacto.css"
 
 import logotipo from "../../assets/images/logotipo.png"
@@ -21,27 +22,8 @@ export default function BodyContacto() {
         <div className="contacto-contactanos__container">
           <div className="contacto-contactanos__columns">
             <div className="contacto-contactanos__col1">
-              <div className="contacto-contactanos__col1-title"><h3>¡Contáctanos e invierte en nuestros proyectos!</h3></div>
               <div className="contacto-contactanos__form">
-                <form action="#">
-                  <div className="contacto-form">
-                    <label htmlFor="name">Nombre</label>
-                    <input type="text" />
-                  </div>
-                  <div className="contacto-form">
-                    <label htmlFor="email">Correo</label>
-                    <input type="email" />
-                  </div>
-                  <div className="contacto-form">
-                    <label htmlFor="phone">Celular</label>
-                    <input type="number" />
-                  </div>
-                  <div className="contacto-form">
-                    <label htmlFor="message">Mensaje</label>
-                    <textarea name="message" id="message" rows={10} cols={50}></textarea>
-                  </div>
-                  <button type="submit">Enviar</button>
-                </form>
+                <Formulario />
               </div>
               <div className="contacto-contactanos__socialmedia">
                 <div className="contacto-contactanos__icon">
