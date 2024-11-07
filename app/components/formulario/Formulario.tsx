@@ -115,6 +115,7 @@ export default function Formulario() {
       });
     } catch (error: unknown) {
       if (axios.isAxiosError(error)) {
+        console.log('Error',error)
         alert("Hubo un error al guardar el prospecto: " + error.response?.data);
       } else {
         alert("Hubo un error inesperado");
