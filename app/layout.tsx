@@ -48,6 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         {/* Meta Pixel Code Villas Galeira */}
         <script
             dangerouslySetInnerHTML={{
